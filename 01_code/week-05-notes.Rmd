@@ -1,0 +1,28 @@
+---
+title: "week_05_notes"
+author: "Andrew Nalundasan"
+date: "10/27/2021"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    number_sections: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# load libraries
+library(readxl)
+library(forecast)
+```
+
+## Overview Video 
+
+
+
+
+## Lecture Video
