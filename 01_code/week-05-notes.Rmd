@@ -22,7 +22,74 @@ library(forecast)
 
 ## Overview Video 
 
++ continue studying MA model
 
++ Inverted MA Roots
 
+    + MA process is always stationary, but may not always be invertible
+    + Invertiblity: express past data using an AR model
+        + If current value can be expressed by past value or not
+        + Inverted MA Root < 1 then this is invertible
+    + increasing horizon does something to the forecast
+    + MA model is a short memory model
+
++ good time for DTC team to come together
+
+    + think of question that we want to answer
+    + get dataset
+    + start exploration of TS
 
 ## Lecture Video
+
+1. MA(2) process is stationary
+
++ a bunch of maths stuff
+
++ assume Eps_t is a normal distribution
+
++ variance is not a function of time. it's a constant
+
++ covariance 
+
++ correlation
+
++ for h > 2, rho(h) == 0
+
+    + more than 2 periods apart, correlation becomes 0
+    + no terms of epsilon are the same
+    
+2. Optimal forecast of MA(2) process
+
++ when h == 1
+
+
+3. Optimal forecast of MA(2) process
+
++ when h == 2
+
++ calculate forecast
+
++ calculate forecast error
+
++ calculate variance
+
++ calculate variance error
+
+4. Optimal forecast of MA(2) process
+
++ when h > 2
+
++ I_t (Information t) has prediction power or not
+
++ unconditional variance of random variable y_t
+
++ density forecast: 
+
+    + f(yt+3 | I_t) ~ N(mu_t+3|t, sigma**3_t+3 | t)
+    + N <- Normal distribution
+
+
+
+
+
+
